@@ -1,0 +1,84 @@
+.melnoca2{
+  width: 50%;
+  top: 20%;
+  position: absolute;
+}
+
+  
+  .square {
+    position: absolute;
+    top:5%;
+    width: 100px;
+    height: 100px;
+    left: 3%;
+    z-index: 999;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center; 
+    animation: 3s linear infinite rotate;
+  }
+  
+  .pivont-point {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  
+    color: #363636;
+    font-size: 30px;
+  
+    transform: translate(-50%, -50%);
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+  .strok{
+    position: absolute;
+    transform: rotate(107deg);
+    top: -57px;
+    left: 20%;
+}
+  
+ .main_pic1{
+  margin-top:50px;
+ }
+
+
+ .square1{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  right: 25%;
+  top: 20%;
+  animation: 3s linear infinite rotate;
+ }
+
+ .small{
+  width: 100px;
+ }
+
+.main_pic{
+  width: 50%;
+  height: 500px;
+  position: relative;
+
+}
+
+
+.content_top{
+  display: flex;
+}
+
+.content_bottom{
+  display: flex;
+  justify-content: center;
+}
+
